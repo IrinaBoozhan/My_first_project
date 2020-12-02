@@ -1,0 +1,123 @@
+body {
+   background-color: #1f1f25;
+   font-family: Montserrat;
+   color: #ffffff;
+   max-width: 1366px;
+   margin: 0px auto;
+   width: 100%;
+}
+
+/*ШАПКА*/
+.header {
+   padding: 33px 128px 0px;
+   /* position: relative;*/
+}
+.header-logo {
+   float: left;
+   margin: 0px 54px 0px 128px;
+}
+
+nav li {
+   display: inline-block;
+   margin-top: 18px;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 17px;
+   margin-left: 37px;
+   text-align: left;
+   padding-bottom: 4.5px;
+   border-bottom: 3px solid #1f1f25;
+   text-align: center;
+}
+nav li:hover,
+nav li:active {
+   color: #3f67e1;
+   border-bottom: 3px solid #3f67e1;
+}
+
+/*DesignSpot School*/
+/*Текст*/
+section {
+   position: relative;
+}
+h1 {
+   position: absolute;
+   width: 383px;
+   height: 146px;
+   left: 189px;
+   top: 132px;
+   font-weight: 700;
+   font-size: 60px;
+   line-height: 73px;
+}
+p {
+   position: absolute;
+   width: 437px;
+   height: 68px;
+   left: 128px;
+   top: 347px;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 34px;
+}
+button {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   width: 241px;
+   height: 60px;
+   align-items: center;
+   padding: 12px 30px;
+   text-transform: uppercase;
+   line-height: 36px;
+   position: absolute;
+   left: 129px;
+   top: 493px;
+   border: 1px solid #3f67e1;
+   background-color: #3f67e1;
+}
+
+.section1-squre {
+   position: absolute;
+   width: 123.08px;
+   height: 123.08px;
+   left: 43px;
+   top: 120px;
+}
+
+/*Слоёная картинка*/
+.section1-image {
+   float: right;
+   background-image: url(images/section1/fon.jpg);
+   height: 577px;
+   width: 637px;
+   position: relative;
+   top: 46px;
+   right: 126px;
+}
+.center {
+   margin-top: 170px;
+   margin-left: 101px;
+   height: 258px;
+   width: 536px;
+}
+.bottom-left {
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+}
+.top-right {
+   position: absolute;
+   top: 0px;
+   right: 0px;
+}
+.bottom-square {
+   position: absolute;
+   left: 44px;
+   bottom: 132px;
+}
+.top-squre {
+   position: absolute;
+   top: 127px;
+   left: 199px;
+}
